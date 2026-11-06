@@ -1,0 +1,189 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: serif;
+
+  background-color: #f9f9fb;
+}
+
+header {
+  padding: 1rem 3rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.logo {
+  max-width: 10%;
+  /* border: 1px solid; */
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 3.4rem;
+
+  list-style: none;
+
+  margin-right: 3rem;
+}
+
+.nav-list li button {
+  font-size: 1.6rem;
+  border: none;
+
+  cursor: pointer;
+
+  background-color: #f9f9fb;
+
+  font-weight: 500;
+
+  transition: all 0.3s;
+}
+
+.nav-list li button:hover {
+  color: #82c91e;
+}
+
+.grid-2d {
+  padding: 9.8rem 1.2rem;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.primary-heading {
+  font-size: 4.5rem;
+  font-weight: 700;
+
+  line-height: 1.7;
+}
+
+.main-text {
+  font-size: 2.8rem;
+}
+
+.main-img {
+  max-width: 80%;
+
+  border-radius: 2rem;
+}
+
+.main-menu-btn {
+  border: none;
+  border-radius: 0.5rem;
+
+  background-color: #2b8a3e;
+  color: #fafafa;
+
+  padding: 1.5rem 3rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+}
+
+.main-menu-btn:hover {
+  background-color: #2f9e44;
+}
+
+footer {
+  border: 1px solid #2b8a3e;
+}
+
+/* menu */
+
+.dish-img {
+  justify-self: end;
+  max-width: 50%;
+
+  border-radius: 3rem;
+}
+
+.center {
+  align-items: center;
+  gap: 2rem;
+}
+
+.dish-heading {
+  font-size: 2.8rem;
+  font-weight: 500;
+}
+
+.dish-description {
+  font-size: 2rem;
+}
+
+.dish-price {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* About Page Layout */
+.about-page {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 3.2rem 2.4rem;
+}
+
+.about-story {
+  margin-bottom: 4.8rem;
+}
+
+.story-img {
+  width: 100%;
+  max-height: 40rem;
+  object-fit: cover;
+  border-radius: 1.6rem;
+  margin-top: 2.4rem;
+}
+
+/* Chef Section */
+.about-chef {
+  margin-bottom: 4.8rem;
+}
+
+.chef-card {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-top: 1.6rem;
+}
+
+.chef-img {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chef-bio {
+  font-size: 1.5rem;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+/* Footer Info Section */
+.about-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.1rem solid #e5e7eb;
+  padding-top: 2.4rem;
+  font-size: 1.3rem;
+  color: #6b7280;
+}
+
+.footer-info strong {
+  display: block;
+  color: #1e1e1e;
+  margin-bottom: 0.6rem;
+}
